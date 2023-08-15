@@ -30,7 +30,7 @@
 
 🔄 Deep Learning model with GRUs
 
-### 🔄 Pricing Model Comparison Dashboard:
+### Pricing Model Comparison Dashboard: 🔄
 
 
 ### Trading Strategy Development:
