@@ -1,4 +1,4 @@
-# OptionPulse: Data-Driven Options Pricing (Project On-going)
+# OptionPulse: Data-Driven Options Pricing (On-going)
 
 ## Status:
 ### Data Collection and Cleaning:
