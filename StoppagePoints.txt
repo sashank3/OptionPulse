@@ -1,0 +1,16 @@
+Just -1 for the dates. Use these to remake that day's data cause it's missing fields
+
+2025-12-20
+2024-03-16
+2022-11-12
+2022-09-30 + 1
+2022-06-18
+2022-04-23
+2022-03-05
+
+Implied Volatility (IV), Historical Volatility (HV), Inflation Rates, Interest Rates, Treasury Bonds Rates,  Dividend Dates, Earnings Announcement Dates
+
+https://tradingeconomics.com/united-states/interest-rate
+https://www.alphaquery.com/stock/AAPL/volatility-option-statistics/30-day/forward-price
+https://www.thetadata.net/opt-tutorials
+https://thetadata-api.github.io/thetadata-python/tutorials/
