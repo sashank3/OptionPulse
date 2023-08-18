@@ -9,7 +9,7 @@ import pandas as pd
 from datetime import date
 from RequestLimiter import requestLimiter
 from ExpiryDates import expiryDateFinder
-from thetadata import ThetaClient, OptionReqType, OptionRight, DateRange, StockReqType, NoData
+from thetadata import ThetaClient, OptionReqType, OptionRight, DateRange, NoData
 
 
 Options = pd.DataFrame()
@@ -62,12 +62,6 @@ with client.connect():
         Options.to_csv('Data/options_EOD_data_' + str(dateOfExpiry).split()[0] + '.csv')
         Options = pd.DataFrame()
         
-    #Stock Data:
-    dataStocks = client.get_hist_stock(
-        req = StockReqType.EOD,
-        root = ticker,
-        date_range = DateRange(date(2023, 1, 1), date(2023, 12, 31)))
-    dataStocks.to_csv('Data/options_EOD_data_' + str(dateOfExpiry) + '.csv')
         
 # We are out of the client.connect() block, so we can no longer make requests.   
 
