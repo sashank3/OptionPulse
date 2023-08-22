@@ -8,9 +8,11 @@ Just -1 for the dates. Use these to remake that day's data cause it's missing fi
 2022-04-23
 2022-03-05
 
-Implied Volatility (IV), Historical Volatility (HV), Inflation Rates, Interest Rates, Treasury Bonds Rates,  Dividend Dates, Earnings Announcement Dates
+Implied Volatility (IV), Historical Volatility (HV), Inflation Rates, Interest Rates, Treasury Bonds Rates,  Dividend Dates, Earnings Announcement Dates, Risk free rate
 
-https://tradingeconomics.com/united-states/interest-rate
-https://www.alphaquery.com/stock/AAPL/volatility-option-statistics/30-day/forward-price
-https://www.thetadata.net/opt-tutorials
+
+https://www.alphaquery.com/stock/AAPL/volatility-option-statistics/30-day/forward-price -> All options metrics
+https://www.thetadata.net/opt-tutorials -> Options Data + underlying Data
 https://thetadata-api.github.io/thetadata-python/tutorials/
+
+https://fred.stlouisfed.org/series/VXAPLCLS - > Market Metrics
