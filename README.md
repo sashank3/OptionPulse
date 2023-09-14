@@ -1,4 +1,4 @@
-# OptionPulse: Data-Driven Options Pricing (On-going)
+# QuantOptions: Data-Driven Options Pricing and Trading (On-going)
 
 ## Status:
 ### Data Collection and Cleaning:
